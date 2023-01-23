@@ -5,6 +5,7 @@ kaboom();
 
 loadSprite("tlo","swieta.png")
 loadSprite("balwan","balwan.png")
+loadSound("muzyka","przybiezeli.mp3")
 
 
 // add a piece of text at position (120, 80)
@@ -33,4 +34,6 @@ onUpdate(()=>{
 
 
 })
+
+onKeyPress("space", ()=>{play("muzyka")})
 
